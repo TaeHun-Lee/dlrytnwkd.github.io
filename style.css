@@ -1,0 +1,432 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Faster one', cursive;
+    font-size: 80px;
+    box-sizing: border-box;
+    top: 0;
+    height: 900px;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+    z-index: 100;
+}
+
+.navname {
+    position: relative;
+    bottom: 60px;
+    color: #9acd32;
+}
+
+nav .navimg {
+    position: relative;
+    border-radius: 10px;
+    bottom: 150px;
+    width: 800px;
+    height: 400px;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+
+.navp {
+    position: relative;
+    bottom: 250px;
+}
+
+.navul {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin:0;
+    padding: 0;
+    z-index: 1000;
+    font-size: 35px;
+    font-family: 'Press Start 2P', cursive;
+    list-style: none;
+    background: url(http://hddesktopwallpapers.in/wp-content/uploads/2015/07/retro-wallpaper-vintage-cool.jpg);
+    /*linear-gradient(to bottom, rgba(255, 255, 255, 0),  rgba(255, 255, 255, 1));*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat, no-repeat;*/
+    /*background-position: center, top;*/
+    border-top: 5px solid rgba(0, 0, 0, 0.3);
+    border-left: 5px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.3);
+    border-right: 5px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 8px #999;
+}
+
+.navul li {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #f0ffff;
+    box-shadow: 0 2px 8px #999;
+}
+
+.navul li:hover {
+    background-color: #a9a9a9;
+}
+
+.introduction, .pgame, .pmovie, .plang, .pixel {
+    box-sizing: border-box;
+    border: 20px solid transparent;
+    border-image: url(https://openclipart.org/image/2400px/svg_to_png/81967/Old-style-border.png) 20 round;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    margin: 30px;
+    height: 1000px;
+    text-align : center;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+
+.intro, .game, .lang, .movie, .px {
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.a {
+  grid-area: abox;
+} 
+
+.b {
+  grid-area: bbox;
+}
+
+.c {
+  grid-area: cbox;
+}
+
+.d {
+  grid-area: dbox;
+}
+
+.e {
+  grid-area: ebox;
+}
+
+.f {
+    grid-area: fbox;
+}
+
+.g {
+    grid-area: gbox;
+}
+
+.h {
+    grid-area: hbox;
+}
+
+.i {
+    grid-area: ibox;
+}
+
+.j {
+    grid-area: jbox;
+}
+
+.k {
+    grid-area: kbox;
+}
+
+.l {
+    grid-area: lbox;
+}
+
+.m {
+    grid-area: mbox;
+}
+
+.n {
+    grid-area: nbox;
+}
+
+.o {
+    grid-area: obox;
+}
+
+.p {
+    grid-area: pbox;
+}
+
+.grid h1, .grid h2, .grid h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.grid p {
+    font-family: 'Nanum Pen Script', cursive; font-size: 20px; margin: 10px;
+}
+
+.grid .d p, .grid .i p {
+    font-size: 25px;
+}
+
+.introduction .grid {
+    display: grid;
+    grid-template-areas: "abox bbox cbox"
+                         "dbox bbox fbox"
+                         "dbox bbox fbox";
+    grid-template-rows: 250px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap : 1px;
+}
+
+.intro.a {
+  background-size: 100% 100%;
+  background-image: url(https://i.pinimg.com/564x/84/b5/68/84b568f5f7b4e800597f6bf3719ebc36.jpg);
+}
+
+
+
+.intro.b {
+  background-size: 100% 100%;
+  background-image: url(https://pbs.twimg.com/media/ClhH-60UYAEITcT.jpg:large);
+}
+
+.intro.c {
+  background: url(https://i.pinimg.com/originals/4e/3b/e9/4e3be9c1342575a1d1df6196b2e80f3d.jpg);
+  background-size: 100% 100%;
+}
+
+.intro.d {
+  background-size: 100% 100%;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/0d59a919515467.562dbbad23189.jpg);
+}
+
+.intro.f {
+  background: url(https://i.pinimg.com/564x/8c/fe/37/8cfe373bb0826809e4cadcbb405eb27b.jpg), 
+    url(https://i.pinimg.com/564x/84/7d/8d/847d8d0a2c748413dadaf94ab4d74966.jpg),
+    url(http://media.topito.com/wp-content/uploads/2014/11/Genzo-Creations1.jpg),
+    url(https://simplytodaylife.com/wp-content/uploads/2016/01/ZTA_CROSSWALK_SIGN_1s_v14.0r_Composed_Mechv8_5MB.jpg),
+    url(https://i.pinimg.com/564x/f1/42/fd/f142fd591e5812f60983c8ee2463992a.jpg),
+    url(https://img.cinemablend.com/cb/6/7/0/e/4/c/670e4c9101cf0f98e5e7d5f3f611725a8a20f2951e7726c151d68aab0fab41a7.jpg),
+    url(https://i.pinimg.com/originals/ca/50/11/ca5011da526fc527b4398ea894751be7.gif),
+    url(https://i.pinimg.com/564x/c9/3b/bf/c93bbf709665e8584a4e4b0ac532a911.jpg),
+    url(https://www.webdesignerdepot.com/cdn-origin/uploads/2011/02/7_god.jpg);
+  background-size: 157px 200px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: top left, top center, top right, center left, center center, center right, bottom left, bottom center, bottom right;
+}
+
+.pgame .grid {
+    display: grid;
+    grid-template-areas: "abox abox cbox"
+                         "dbox ebox ebox"
+                         "gbox gbox ibox";
+    grid-template-rows: 250px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap : 1px;
+}
+
+.game.a {
+    background-size: 100% 100%; /* 930px 250px; */
+    background-image: url(https://theawesomer.com/photos/2015/09/animations_by_kirokaze_1.gif);
+    border-radius: 5px;
+}
+
+.game.c, .game.d, .game.i {
+    overflow: auto;
+}
+
+.game.d {
+    margin-right: 2px;
+}
+
+.game.g {
+    background-image: url(https://media.giphy.com/media/BOQsLtDHkSedO/giphy.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.dead {
+    border-radius: 5px;
+    box-shadow: 0 2px 8px #999;
+}
+
+.plang .grid {
+    display: grid;
+    grid-template-areas: "abox abox abox"
+                         "dbox ebox fbox"
+                         "dbox ebox fbox";
+    grid-template-rows: 250px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap : 1px;
+}
+
+.lang.a img {
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+}
+
+.lang.a {
+    overflow: auto;
+}
+
+.lang p {
+    display: block;
+    background-color: #fff;
+    border-radius: 15px;
+    color: #191970;
+    box-shadow: 0 2px 8px #999;
+    padding: 10px;
+}
+
+.lang.d {
+    background-image: url(https://timedotcom.files.wordpress.com/2016/03/how-to-eat-like-a-japanese-person.jpg);
+    background-size: cover;
+}
+
+.lang.e {
+    background-image: url(https://lh3.googleusercontent.com/Xt16RuUK-Ak7BQJOsAkmf0wKYGJn0Zcc9zntMqPVoX7k5JngFPwXHq6IFbfGzHzxTg=w300);
+    background-size: 33%;
+}
+
+.lang.f {
+    background-image: url(https://media.istockphoto.com/vectors/mexico-vector-seamless-pattern-dia-de-los-muertos-day-of-the-dead-vector-id861938018);
+    background-size: contain;
+}
+
+.lang.d, .lang.e, .lang.f {
+    overflow: auto;
+}
+
+.pmovie .grid {
+    display: grid;
+    grid-template-areas: "abox bbox cbox"
+                         "dbox ebox fbox"
+                         "gbox hbox ibox";
+    grid-template-rows: 250px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap : 1px;
+}
+
+.movie {
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.movie.a {
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/11/mejores-peliculas-comedia-2016-deadpool-ave-cesar_8.jpg);
+}
+
+.movie.b {
+    background-image: url(https://ib4.hulu.com/show_key_art/17515?size=1600x600&region=US);
+}
+
+.movie.c {
+    background-image: url(https://static.wixstatic.com/media/3aad69_df4e8c0146dd404a8bbabd17aae0c19d~mv2.jpg);
+}
+
+.movie.d {
+    background-image: url(http://nimage.globaleconomic.co.kr/phpwas/restmb_allidxmake.php?idx=5&simg=2017062916583500398a8b5e7c93c12114162187.jpg);
+}
+
+.movie.e {
+    background-image: url(https://i.pinimg.com/originals/af/89/c2/af89c271e279de9d150d694eb10f6f22.png);
+}
+
+.movie.f {
+    background-image: url(http://bi.gazeta.pl/im/29/6e/14/z21424937IE,La-La-Land.jpg);
+}
+
+.movie.g {
+    background-image: url(http://cfile6.uf.tistory.com/image/2740F84F550CBCF52E19A3);
+}
+
+.movie.h {
+    background-image: url(http://sites.sonypictures.com/babydriver/discanddigital/share.jpg);
+}
+
+.movie.i {
+    background-image : url(http://movie.phinf.naver.net/20140424_93/1398315691691WFpez_JPEG/movie_image.jpg?type=m665_443_2);
+}
+
+.pixel .grid {
+    display: grid;
+    grid-template-areas: "abox bbox cbox dbox"
+                         "ebox fbox gbox hbox"
+                         "ibox jbox kbox lbox"
+                         "mbox nbox obox pbox";
+    height: 900px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap : 1px;
+}
+
+.px {
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+
+.px.a {
+    background-image: url(https://i0.wp.com/anotherwordforattic.com/wp-content/uploads/2016/10/tumblr_o957gpYpAY1qklyk4o1_500.gif);
+}
+
+.px.b {
+    background-image: url(https://78.media.tumblr.com/09c6d90170076846bdb19de05e08a8ca/tumblr_ol3lldvM801qze3hdo1_r1_500.gif);
+}
+
+.px.c {
+    background-image: url(https://media.giphy.com/media/NJrjzTO5a0A5W/giphy.gif);
+}
+
+.px.d {
+    background-image: url(https://i.imgur.com/T4aBuA8.gif);
+}
+
+.px.e {
+    background-image: url(https://img.gifmagazine.net/gifmagazine/images/935373/original.gif);
+}
+
+.px.f {
+    background-image: url(https://78.media.tumblr.com/98d29a92d18d668e3c23c981c1da3291/tumblr_os8y4kp2NP1ujca6vo1_1280.gif);
+}
+
+.px.g {
+    background-image: url(https://i.pinimg.com/originals/0b/6d/5a/0b6d5ad17fa6257528f6a28ddb6e7d1d.gif);
+}
+
+.px.h {
+    background-image: url(https://i.imgur.com/Jc2ISfl.gif);
+}
+
+.px.i {
+    background-image: url(http://1.media.dorkly.cvcdn.com/73/89/86e21470311e3ae07d79678e0c650d0f.gif);
+}
+
+.px.j {
+    background-image: url(https://cdn.80.lv/80.lv/uploads/2017/05/tumblr_oh8awjk7lA1qze3hdo1_r1_500.gif);
+}
+
+.px.k {
+    background-image: url(http://artfcity.com/wp-content/uploads/2017/01/overload.gif);
+}
+
+.px.l {
+    background-image: url(https://i.imgur.com/Rk5b9e2.gif);
+}
+
+.px.m {
+    background-image: url(http://i.giftrunk.com/112dvf.gif);
+}
+
+.px.n {
+    background-image: url(https://i.kinja-img.com/gawker-media/image/upload/s--cthTwW30--/1243094606179633986.gif);
+}
+
+.px.o {
+    background-image: url(https://media.giphy.com/media/1AycPuUMI2RuU/giphy.gif);
+}
+
+.px.p {
+    background-image: url(https://media.giphy.com/media/psD6FWmONyiHe/giphy.gif);
+}
